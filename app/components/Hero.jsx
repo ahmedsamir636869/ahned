@@ -20,12 +20,29 @@ function Hero() {
         </p>
   
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <a
-            className="block w-full rounded bg-gradient-to-r from-red-900 via-red-700 to-orange-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-            href="/Muscles"
-          >
-            Get Started
-          </a>
+        <a
+  class="group relative inline-flex items-center overflow-hidden rounded bg-gradient-to-r from-red-900 via-red-700 to-orange-700 px-8 py-3 text-white focus:outline-none focus:ring active:bg-red-500"
+  href="/Muscles"
+>
+  <span class="absolute -end-full transition-all group-hover:end-4">
+    <svg
+      class="size-5 rtl:rotate-180"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      />
+    </svg>
+  </span>
+
+  <span class="text-sm font-medium transition-all group-hover:me-4"> Get Started </span>
+</a>
   
           <a
             className="block w-full rounded px-12 py-3 text-sm font-medium text-white shadow hover:text-red-500 focus:outline-none focus:ring active:text-red-500 sm:w-auto"

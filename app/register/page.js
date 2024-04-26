@@ -24,7 +24,7 @@ function reg() {
         </a>
 
         <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-          Welcome to musle builder 
+          Welcome to Muscle builder 
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
@@ -51,7 +51,7 @@ function reg() {
           </a>
 
           <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl dark:text-white">
-            Welcome to Msusle builder 
+            Welcome to Muscle builder 
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500 dark:text-gray-400">
@@ -62,80 +62,103 @@ function reg() {
 
         <form action="#" className="mt-10 grid grid-cols-6 gap-10">
           <div className="col-span-6 sm:col-span-3">
-            <label
-              htmlFor="FirstName"
-              className="block text-sm font-medium text-gray-700 dark:text-gray-200"
-            >
-              First Name
-            </label>
+          <label
+  for="UserEmail"
+  class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800"
+>
+  <input
+    type="email"
+    id="UserEmail"
+    placeholder="Email"
+    class="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm dark:text-white"
+  />
 
-            <input
-              type="text"
-              id="FirstName"
-              name="first_name"
-              className="mt-1s w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
-            />
+  <span
+    class="absolute start-3 top-3 -translate-y-1/2 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-gray-200"
+  >
+    First Name
+  </span>
+</label>
           </div>
 
           <div className="col-span-6 sm:col-span-3">
-            <label
-              htmlFor="LastName"
-              className="block text-sm font-medium text-gray-700 dark:text-gray-200"
-            >
-              Last Name
-            </label>
+          <label
+  for="UserEmail"
+  class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800"
+>
+  <input
+    type="email"
+    id="UserEmail"
+    placeholder="Email"
+    class="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm dark:text-white"
+  />
 
-            <input
-              type="text"
-              id="LastName"
-              name="last_name"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
-            />
+  <span
+    class="absolute start-3 top-3 -translate-y-1/2 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-gray-200"
+  >
+    Last Name
+  </span>
+</label>
           </div>
 
           <div className="col-span-6">
-            <label htmlFor="Email" className="block text-sm font-medium text-gray-700 dark:text-gray-200">
-              Email
-            </label>
+          <label
+  for="UserEmail"
+  class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800"
+>
+  <input
+    type="email"
+    id="UserEmail"
+    placeholder="Email"
+    class="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm dark:text-white"
+  />
 
-            <input
-              type="email"
-              id="Email"
-              name="email"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
-            />
+  <span
+    class="absolute start-3 top-3 -translate-y-1/2 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-gray-200"
+  >
+    Email
+  </span>
+</label>
           </div>
 
           <div className="col-span-6 sm:col-span-3">
-            <label
-              htmlFor="Password"
-              className="block text-sm font-medium text-gray-700 dark:text-gray-200"
-            >
-              Password
-            </label>
+          <label
+  for="UserEmail"
+  class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800"
+>
+  <input
+    type="email"
+    id="UserEmail"
+    placeholder="Email"
+    class="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm dark:text-white"
+  />
 
-            <input
-              type="password"
-              id="Password"
-              name="password"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
-            />
+  <span
+    class="absolute start-3 top-3 -translate-y-1/2 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-gray-200"
+  >
+    Password
+  </span>
+</label>
           </div>
 
           <div className="col-span-6 sm:col-span-3">
-            <label
-              htmlFor="PasswordConfirmation"
-              className="block text-sm font-medium text-gray-700 dark:text-gray-200"
-            >
-              Password Confirmation
-            </label>
+          <label
+  for="UserEmail"
+  class="relative block overflow-hidden rounded-md border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 dark:border-gray-700 dark:bg-gray-800"
+>
+  <input
+    type="email"
+    id="UserEmail"
+    placeholder="Email"
+    class="peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm dark:text-white"
+  />
 
-            <input
-              type="password"
-              id="PasswordConfirmation"
-              name="password_confirmation"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
-            />
+  <span
+    class="absolute start-3 top-3 -translate-y-1/2 text-xs text-gray-700 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs dark:text-gray-200"
+  >
+Password Confirmation
+  </span>
+</label>
           </div>
 
           <div className="col-span-6">
