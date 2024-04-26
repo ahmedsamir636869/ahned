@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 function Header() {
   return (
-    <header className="bg-white dark:bg-primary">
+    <header className="bg-black dark:bg-primary">
   <div className="mx-auto max-w-screen-xl px-1 sm:px-6 lg:px-8">
     <div className="flex h-35 items-center justify-between">
       <div className="md:flex md:items-center md:gap-12">

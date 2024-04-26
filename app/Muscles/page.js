@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import './page.css';
+
+
+
 
 function Muslces() {
   return (
@@ -17,8 +21,13 @@ function Muslces() {
     />
     
     <div className="container-fluid align-center pt-3 ">
-      <div className="row text-center">
+    <h1 className="text-center">Select Your Muscle</h1>
+
+      <div className="row text-center  pl-32">
+        
         <div className="col-md-6">
+
+       
           <svg
             width="70%"
             height="100%"
