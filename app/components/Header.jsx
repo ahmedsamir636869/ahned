@@ -81,7 +81,7 @@ function Header() {
           <div className="hidden sm:flex">
             <a
               className="rounded-md bg-gradient-to-r px-5 py-2.5 text-sm font-medium from-orange-700 via-red-700 to-red-900 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-              href="#"
+              href="/register"
             >
               Register
             </a>
