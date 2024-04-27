@@ -2,10 +2,10 @@ import React from 'react'
 import './page.css'
 
 
-function chest() {
+function Glutes() {
   return (
     <div className="workout-container">
-      <div className='workout'>
+   <div className='workout'>
         <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
         <img
         alt=""
@@ -27,7 +27,7 @@ function chest() {
     </ol>
   </div>
       </article></div>
-
+    
       <div className='workout'>
       <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
   <img
@@ -54,65 +54,56 @@ function chest() {
   </div>
       </article>
       </div>
-
       <div className='workout'>
-      <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-      <img
+        <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+        <img
         alt=""
-        src="https://gymvisual.com/img/p/3/2/4/5/4/32454.gif"
-        className="h-full w-full object-cover"
-      />
-
-        <div className="bg-white p-4 sm:p-6">
-
-    <h3 className="mt-0.5 text-lg text-gray-900">Machine Leg Extension</h3>
-
-    <ol className='mt-2 text-sm text-gray-500 pl-2'>
-      <li>Sit on the machine with your back against the cushion and adjust the machine you are using so that your knees are at a 90 degree angle at the starting position. </li>
-      <br></br>
-      <li>Raise the weight by extending your knees outward, then lower your leg to the starting position. Both movements should be done in a slow, controlled motion.</li>
-      <br></br>
-      
-    </ol>
-    
-    {/* <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-      
-    </p> */}
-  </div>
-      </article>
-      </div>
-
-      <div className='workout'>
-      <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-  <img
-    alt=""
-    src="https://gymvisual.com/img/p/2/1/6/6/5/21665.gif"
-    className="h-full w-full object-cover"
-  />
+        src="https://gymvisual.com/img/p/4/8/5/4/4854.gif"
+        className="w-full h-full object-cover"
+        />
 
   <div className="bg-white p-4 sm:p-6">
-
-    <h3 className="mt-0.5 text-lg text-gray-900">Barbell Step Up</h3>
+    <a href="#">
+      <h3 className="mt-0.5 text-lg text-gray-900">Barbell Stiff Leg Deadlifts</h3>
+    </a>
 
     <ol className='mt-2 text-sm text-gray-500 pl-2'>
-      <li> Begin by standing in front of a sturdy box or bench that is about knee-height, holding a barbell across your upper back and shoulders, using an overhand grip.</li>
+      <li>Stand with a barbell at your shins with your feet shoulder width apart. </li>
       <br></br>
-      <li>Place your right foot on the box and push through the heel to lift your body up and onto the box</li>
+      <li>Bend forward at your hips and keep your knees as fully extended as possible</li>
       <br></br>
-      <li>Step back down with your right foot.</li>
+      <li>Grab the barbell and then extend your hips while maintaining a straight back.</li>
     </ol>
-    
-    {/* <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-      
-    </p> */}
   </div>
-      </article>
-      </div>
+      </article></div>
+      <div className='workout'>
+        <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+        <img
+        alt=""
+        src="https://www.inspireusafoundation.org/wp-content/uploads/2022/09/barbell-hip-thrust.gif"
+        className="w-full h-full object-cover"
+        />
 
+  <div className="bg-white p-4 sm:p-6">
+    <a href="#">
+      <h3 className="mt-0.5 text-lg text-gray-900">Barbell Hip Thrust</h3>
+    </a>
+
+    <ol className='mt-2 text-sm text-gray-500 pl-2'>
+      <li> Sit on the ground with a bench behind you. Have the barbell over your legs just above your hips.</li>
+      <br></br>
+      <li>Lean back against the bench so that your shoulders are resting upon it, stretch your arms out to either side using the bench as support.</li>
+      <br></br>
+      <li>Raise the weight by driving through your feet and extending your hips upwards. Support the weight with your shoulders and feet.</li>
+    </ol>
+  </div>
+      </article></div>
+
+    
       
-      
+     
     </div>
   )
 }
 
-export default chest
+export default Glutes
