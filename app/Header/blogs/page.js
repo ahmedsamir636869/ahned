@@ -28,7 +28,7 @@ function price() {
       </div>
 
       <div className="p-6 sm:px-8">
-        <p className="text-lg font-medium text-primary3 sm:text-xl">What's included:</p>
+      <p className="text-lg font-medium text-primary3 sm:text-xl">What&apos;s included:</p>
 
         <ul className="mt-2 space-y-2 sm:mt-4">
           <li className="flex items-center gap-1">
@@ -148,7 +148,7 @@ function price() {
       </div>
 
       <div className="p-6 sm:px-8">
-        <p className="text-lg font-medium text-primary3 sm:text-xl">What's included:</p>
+        <p className="text-lg font-medium text-primary3 sm:text-xl">What&apos;s included:</p>
 
         <ul className="mt-2 space-y-2 sm:mt-4">
           <li className="flex items-center gap-1">
@@ -268,7 +268,7 @@ function price() {
       </div>
 
       <div className="p-6 sm:px-8">
-        <p className="text-lg font-medium text-primary3 sm:text-xl">What's included:</p>
+        <p className="text-lg font-medium text-primary3 sm:text-xl">What&apos;s included:</p>
 
         <ul className="mt-2 space-y-2 sm:mt-4">
           <li className="flex items-center gap-1">
