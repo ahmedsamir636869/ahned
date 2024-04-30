@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
+import Link from 'next/link';
+
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,61 +15,61 @@ function Header() {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
-          <a href="/">
+          <Link href="/">
     <img src="/logo1.png" alt="logo" width={70} height={70} />
-</a>
+</Link>
           </div>
 
           <div className="hidden md:block">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-sm">
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/Header/workout"
                   >
                     Workout
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/Header/routine"
                   >
                     Routine
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/Header/tools"
                   >
                     Tools
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                    href="/Header/projects"
+                    href="/Header/Pricing"
                   >
-                    Projects
-                  </a>
+                    Pricing
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                    href="/Header/blogs"
+                    href="/Header/Team"
                   >
-                    Blog
-                  </a>
+                    Team
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -75,20 +77,20 @@ function Header() {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a
+              <Link
                 className="rounded-md bg-gradient-to-r from-red-900 via-red-700 to-orange-700 px-5 py-2.5 text-sm font-medium text-white shadow dark:hover:bg-teal-500"
                 href="/login"
               >
                 Login
-              </a>
+              </Link>
 
               <div className="hidden sm:flex">
-                <a
+                <Link
                   className="rounded-md bg-gradient-to-r px-5 py-2.5 text-sm font-medium from-orange-700 via-red-700 to-red-900 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
                   href="/register"
                 >
                   Register
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -122,52 +124,52 @@ function Header() {
             <nav aria-label="Global" className="mt-2">
               <ul className="flex flex-col items-center gap-4 text-sm">
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/Header/workout"
                   >
                     Workout
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/Header/routine"
                   >
                     Routine
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/Header/tools"
                   >
                     Tools
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/Header/projects"
                   >
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                     href="/Header/blogs"
                   >
                     Blog
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

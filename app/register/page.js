@@ -1,5 +1,7 @@
 'use client'
 import React, { useState } from 'react';
+import Link from 'next/link';
+
 
 // signup validation
 function validateSignupForm(firstName, lastName, email, password, confirmPassword) {
@@ -238,7 +240,7 @@ Password Confirmation
                 )}
                 <p className="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-400">
                   Already have an account?
-                  <a href="#" className="text-gray-700 underline dark:text-gray-200">Log in</a>.
+                  <Link href="/login" className="text-gray-700 underline dark:text-gray-200">Log in</Link>.
                 </p>
               </div>
             </form>

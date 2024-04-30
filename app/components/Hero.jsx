@@ -1,8 +1,10 @@
 import React from 'react'
 import "../components/Hero.css"
+import Link from 'next/link'
 
 function Hero() {
   return (
+    
     <section
     className="bg-cover bg-center h-screen"
     style={{ backgroundImage: `url("https://a.top4top.io/p_3038nserp1.jpg")` }}
@@ -20,7 +22,7 @@ function Hero() {
         </p>
   
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-        <a
+        <Link
   class="group relative inline-flex items-center overflow-hidden rounded bg-gradient-to-r from-red-900 via-red-700 to-orange-700 px-8 py-3 text-white focus:outline-none focus:ring active:bg-red-500"
   href="/Muscles"
 >
@@ -42,7 +44,7 @@ function Hero() {
   </span>
 
   <span class="text-sm font-medium transition-all group-hover:me-4"> Get Started </span>
-</a>
+</Link>
   
           <a
             className="block w-full rounded px-12 py-3 text-sm font-medium text-white shadow hover:text-red-500 focus:outline-none focus:ring active:text-red-500 sm:w-auto"

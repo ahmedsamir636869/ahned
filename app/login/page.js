@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 // Validation function
@@ -155,9 +156,9 @@ function Login() {
 
           <p className="text-center text-sm text-gray-500">
             No account?
-            <a className="underline" href="/register">
+            <Link className="underline" href="/register">
               Sign up
-            </a>
+            </Link>
           </p>
         </form>
       </div>
