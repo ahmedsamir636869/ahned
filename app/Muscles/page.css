@@ -4,14 +4,14 @@
 
 :root {
   --foreground-rgb: 255,255, 255;
-  --background-start-rgb: 255, 255, 255S;
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
 }
 
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255,255,255;
+    --foreground-rgb: 255, 255,255;
     --background-start-rgb: 255, 255, 255;
     --background-end-rgb: 255, 255, 255;
   }
@@ -39,6 +39,5 @@ body {
 .body-map__muscle path:hover{
   fill: crimson;
 }
-
 
 

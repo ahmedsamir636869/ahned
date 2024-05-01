@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 
+
 // Validation function
 function validateLoginForm(email, password) {
   const errors = {};
